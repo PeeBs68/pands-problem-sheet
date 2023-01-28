@@ -2,4 +2,4 @@
 
 Task1
 
-    First program, helloworld.py, outputs **"Hello World"** to the terminal window
+    My first program which outputs **Hello World** to the terminal window
