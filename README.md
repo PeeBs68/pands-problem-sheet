@@ -1,8 +1,15 @@
 # pands-problem-sheet
 
-# Formatting ideas taken from Markdown Cheat Sheet https://www.markdownguide.org/cheat-sheet
+# Links
+Formatting ideas taken from Markdown Cheat Sheet https://www.markdownguide.org/cheat-sheet
 
-## Task1
+Python Operators - https://www.w3schools.com/python/python_operators.asp
 
-My first program which outputs **Hello World** to the terminal window.
+---
+---
+
+# Task1
+
+helloworld.py  
+My first script which outputs **Hello World** to the terminal window.
 
