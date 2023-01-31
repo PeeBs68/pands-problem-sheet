@@ -1,6 +1,11 @@
 # bank.py
-# author: Phelim Barry
-# script to receive two inputs, add them together 
-# and output the result
+# Author: Phelim Barry
+# Purpose: Receive two inputs, add them together and output the result
 
-print("Hello World!")
+# input section 
+# NOTE to self - Add validations for number format - should be an INT and not CHAR etc
+# Note to self - allow for negative values
+
+# calculations
+
+# output section
