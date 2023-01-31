@@ -1,5 +1,5 @@
-# helloworld
+# helloworld.py
 # author: Phelim Barry
-# simple scrip to output Hello World!
+# simple script to output Hello World!
 
 print("Hello World!")
