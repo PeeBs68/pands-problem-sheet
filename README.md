@@ -13,3 +13,7 @@ Python Operators - https://www.w3schools.com/python/python_operators.asp
 helloworld.py  
 My first script which outputs **Hello World** to the terminal window.
 
+# Task2
+
+bank.py  
+My second script which receives two inputs, adds them together and outputs the result
