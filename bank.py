@@ -2,8 +2,12 @@
 # Author: Phelim Barry
 # Purpose: Receive two inputs, add them together and output the result
 
-#Links
-# for decimals https://tutorial.eyehunts.com/python/how-to-display-2-decimal-places-in-python-example-code/
+# Links
+# Information on Decimals taken from the following to ensure the output had 2 decimal places 
+# (e.g. 200/100 = 2.0. Needed this to show as 2.00)
+# https://stackoverflow.com/questions/5202233/how-to-change-39-54484700000000-to-39-54-and-using-python
+# https://tutorial.eyehunts.com/python/how-to-display-2-decimal-places-in-python-example-code/ and
+# https://www.pythontutorial.net/advanced-python/python-decimal/
 
 # There is a bit in this, break it down into smaller parts, 
 # for example read in an integer first, (and print it back out again, 
