@@ -13,6 +13,7 @@ https://www.w3schools.com/python/python_operators.asp - Python Operators
 | --- | ---| ---|
 | helloworld.py | Task1: Output **Hello World** to the terminal window. | [helloworld.py](#1-helloworld) 
 | bank.py| Task2: Take two inputs in Cents, add them and output the result in Euros | [bank.py](#2-bank) 
+| task3.py| Task3: Placeholder for Task3 | [task3.py](#3-task3) 
 
 
 # 1. helloworld
@@ -39,5 +40,10 @@ Information on Decimals taken from the following source to ensure the output had
 Details on how to handle non integer inputs taken from Stackoverflow
 https://stackoverflow.com/questions/62768087/how-can-i-not-allow-letters-and-only-allow-numbers-in-an-input-on-python-3
 
+# 3. task3
 
+Filename: 
 
+Summary: Placeholder for Task3
+
+Details:
