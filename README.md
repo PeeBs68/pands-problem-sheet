@@ -9,12 +9,18 @@
 ---
 ---
 
-# Task1
+| Filename | Description | Quick Link |
+| --- | ---| ---|
+| helloworld.py | Task1: Outputs **Hello World** to the terminal window. | [helloworld.py](#1-helloworld) 
+| bank.py| Task2: Takes two inputs in Cents and outputs in Euros | [bank.py](#2-bank) 
+
+
+# 1. helloworld
 
 helloworld.py  
 My first script which outputs **Hello World** to the terminal window.
 
-# Task2
+# 2. bank
 
 bank.py  
 My second script which receives two inputs, adds them together and outputs the result
