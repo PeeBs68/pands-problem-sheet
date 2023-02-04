@@ -2,7 +2,7 @@ Readme.md for pands-problem-sheet
 Author: Phelim Barry  
 This file provides details of...
 
-List of Links  
+General Links used  
 https://www.markdownguide.org/cheat-sheet - Formatting ideas taken from Markdown Cheat Sheet  
 https://www.w3schools.com/python/python_operators.asp - Python Operators
 
@@ -17,13 +17,16 @@ https://www.w3schools.com/python/python_operators.asp - Python Operators
 
 # 1. helloworld
 
-Filename: helloworld.py  
-Summary: Simple script which outputs **Hello World** to the terminal window.  
+Filename: helloworld.py
+
+Summary: Simple script which outputs **Hello World** to the terminal window. 
+
 Details: The purpose of this script is to print the string "Hello World!".
 
 # 2. bank
 
-Filename: bank.py  
+Filename: bank.py
+
 Summary: Script to input two integer values, add them together and output the result
 
 Details: The purpose of this script is to prompt the user to input two values (in cents), add the two values together and output the result (in euros). The script is broken down into three sections
