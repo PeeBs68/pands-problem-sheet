@@ -2,13 +2,13 @@ Readme.md for pands-problem-sheet
 Author: Phelim Barry  
 This file provides details of...
 
-General Links used  
+**General Links used**  
 https://www.markdownguide.org/cheat-sheet - Formatting ideas taken from Markdown Cheat Sheet  
 https://www.w3schools.com/python/python_operators.asp - Python Operators
 
 ---
 ---
-
+**Table of Contents**
 | Filename | Short Description | Link |
 | --- | ---| ---|
 | helloworld.py | Task1: Output **Hello World** to the terminal window. | [helloworld.py](#1-helloworld) 
