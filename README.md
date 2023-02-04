@@ -17,12 +17,13 @@ https://www.w3schools.com/python/python_operators.asp - Python Operators
 
 # 1. helloworld
 
-helloworld.py  
-Simple script which outputs **Hello World** to the terminal window.
+Filename: helloworld.py  
+Summary: Simple script which outputs **Hello World** to the terminal window.  
+Details: The purpose of this script is to print the string "Hello World!".
 
 # 2. bank
 
-bank.py  
+Filename: bank.py  
 Summary: Script to input two integer values, add them together and output the result
 
 Details: The purpose of this script is to prompt the user to input two values (in cents), add the two values together and output the result (in euros). The script is broken down into three sections
@@ -30,7 +31,7 @@ Details: The purpose of this script is to prompt the user to input two values (i
 2) Calculations
 3) Output
 
-Additional Links Used:
+Additional Links Used:  
 Information on Decimals taken from the following source to ensure the output had 2 decimal places   https://www.w3schools.com/python/python_string_formatting.asp  
 Details on how to handle non integer inputs taken from Stackoverflow
 https://stackoverflow.com/questions/62768087/how-can-i-not-allow-letters-and-only-allow-numbers-in-an-input-on-python-3
