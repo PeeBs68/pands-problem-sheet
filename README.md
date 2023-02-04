@@ -1,9 +1,9 @@
-Readme.md for pands-problem-sheet\n
-Author: Phelim Barry\n
+Readme.md for pands-problem-sheet  
+Author: Phelim Barry  
 This file provides details of...
 
-List of Links\n
-https://www.markdownguide.org/cheat-sheet - Formatting ideas taken from Markdown Cheat Sheet
+List of Links  
+https://www.markdownguide.org/cheat-sheet - Formatting ideas taken from Markdown Cheat Sheet  
 https://www.w3schools.com/python/python_operators.asp - Python Operators
 
 ---
