@@ -36,7 +36,8 @@ Details: The purpose of this script is to prompt the user to input two values (i
 3) Output - the print command is used to output the result back to the terminal. The output is formatted to ensure that two decimal places are diaplayed. 
 
 Additional Links Used:  
-Information on Decimals taken from the following source to ensure the output had 2 decimal places   https://www.w3schools.com/python/python_string_formatting.asp  
+Information on Decimals taken from the following source to ensure the output had 2 decimal places   https://www.w3schools.com/python/python_string_formatting.asp  and  https://thepythonguru.com/python-string-formatting/
+
 Details on how to handle non integer inputs taken from Stackoverflow
 https://stackoverflow.com/questions/62768087/how-can-i-not-allow-letters-and-only-allow-numbers-in-an-input-on-python-3
 
