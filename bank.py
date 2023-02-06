@@ -36,6 +36,6 @@ numtotal = (num1 + num2)/100
 
 # output section
 # define a new variable to hold the total value and format with 2 decimal places
-newnumtotal = "{0:.2f}".format(numtotal)
+newnumtotal = "{:.2f}".format(numtotal)
 # Add a new line and print the output
 print (f"\nThe total in Euros and Cents is: €{newnumtotal}")
