@@ -14,7 +14,7 @@ while True:
   break
 
 # output the input value in Cents and Euros
-newnum1 = "€{:.2f} Euro"
+newnum1 = "{:.2f} Euro"
 print("\nYou Entered",num1,"cent which is",newnum1.format(num1/100))
 
 # take the 2nd input and validate it is an integer
@@ -27,7 +27,7 @@ while True:
   break
 
 # output the input value in Cents and Euros
-newnum2 = "€{:.2f} Euro"
+newnum2 = "{:.2f} Euro"
 print("\nYou Entered",num2,"cent which is",newnum2.format(num2/100))
 
 # calculations
@@ -38,4 +38,4 @@ numtotal = (num1 + num2)/100
 # define a new variable to hold the total value and format with 2 decimal places
 newnumtotal = "{:.2f}".format(numtotal)
 # Add a new line and print the output
-print (f"\nThe total in Euros and Cents is: €{newnumtotal}")
+print (f"\nThe total in Euros and Cents is: {newnumtotal}")
