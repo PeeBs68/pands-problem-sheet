@@ -46,8 +46,12 @@ Filename: accounts.py (Task03)
 
 Summary: Read in a 10 character account number and output the number with the last 4 digits showing as input and the others replaced with XXXXXX. Do likewise with a string of any length.
 
-Details: The purpose of this script is to take in a 10 character string as input, replace the first six characters with the character 'X' and output the result. Using xxx we can ensure the input is 10 characters and ss it is a defined length string we use xxx to do yyy...
-The second part of this script is to take in a string of any length and again only printing the last four digits as inputed and replacing the rest with 'X'. We follow the same structure as part1 above but check the length of the string to identify how many characters we need to replace.
+Details: This script is split into two sections. The first part is to take in a 10 character string as input, replace the first six characters with the character 'X' and output the result. 
+Using xxx we can ensure the input is 10 characters and as it is a defined length string we use xxx to do yyy...  
+
+The second part of this script is to take in a string of any length and again only printing the last four digits as inputed and replacing the rest with 'X'. We follow the same structure as in part1 above but check the length of the string after it has been inputed to identify how many characters we need to replace.
+
+Additional Links referenced for this task:  
 
 # 4. task4
 
