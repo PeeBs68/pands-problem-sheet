@@ -13,7 +13,7 @@ https://www.w3schools.com/python/python_operators.asp - Python Operators
 | --- | ---| ---|
 | helloworld.py | Task1: Output **Hello World** to the terminal window. | [Task01](#1-helloworld) 
 | bank.py| Task2: Take two inputs in Cents, add them and output the result in Euros | [Task02](#2-bank) 
-| task3.py| Task3: Placeholder for Task3 | [Task03](#3-task3) 
+| accounts.py| Task3: Replace characters in a string with 'X' | [Task03](#3-accounts) 
 | task4.py| Task4: Placeholder for Task4 | [Task04](#4-task4) 
 | task5.py| Task5: Placeholder for Task5 | [Task05](#5-task5) 
 
@@ -40,13 +40,14 @@ Additional Links referenced for this task:
 Information on handling Decimals taken from the following sources to ensure the output had 2 decimal places   https://www.w3schools.com/python/python_string_formatting.asp  and  https://thepythonguru.com/python-string-formatting/
 
 
-# 3. task3
+# 3. accounts
 
-Filename: xxx.py (Task03)
+Filename: accounts.py (Task03)
 
-Summary: Placeholder for Task3
+Summary: Read in a 10 character account number and output the number with the last 4 digits showing as input and the others replaced with XXXXXX. Do likewise with a string of any length.
 
-Details:
+Details: The purpose of this script is to take in a 10 character string as input, replace the first six characters with the character 'X' and output the result. Using xxx we can ensure the input is 10 characters and ss it is a defined length string we use xxx to do yyy...
+The second part of this script is to take in a string of any length and again only printing the last four digits as inputed and replacing the rest with 'X'. We follow the same structure as part1 above but check the length of the string to identify how many characters we need to replace.
 
 # 4. task4
 
