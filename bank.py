@@ -6,6 +6,7 @@
 # input section 
 # take the 1st input and validate it is an integer
 
+#NOTE TO SELF eed to remove this and replace with a simple input
 while True:
   try:
     num1 = int(input("\nInput the first number in cents: "))
@@ -22,6 +23,7 @@ print("\nYou Entered ",num1,"cent which is",newnum1.format(num1/100))
 print("\nYou Entered ",num1,"cent which is",newnum1.format(num1/100))
 
 # take the 2nd input and validate it is an integer
+#NOTE TO SELF eed to remove this and replace with a simple input
 while True:
   try:
     num2 = int(input("\nInput the second number in cents: "))
