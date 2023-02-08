@@ -32,9 +32,9 @@ Filename: bank.py (Task02)
 Summary: Script to input two integer values, add them together and output the result
 
 Details: The purpose of this script is to prompt the user to input two values (in cents), add the two values together and output the result (in euros). The script is broken down into three sections.
-1) Input - prompt the user to input two values in cents. Validations are added during the input phase to verify the inputted numbers are integers and will prompt the user to retry otherwise. The inputted values are then displayed back to the user.
-2) Calculations - in this section I add the two values together and divide by 100 to give a total in Euros (and Cents)
-3) Output - the print command is used to output the result back to the terminal. The output is formatted to ensure that two decimal places are diaplayed. 
+1) Input - prompt the user to input two values in cents. The inputted values are then displayed back to the user. (Note: No validations are added at this stage to enfore the netry in INT format - we could have used ValueError.)
+2) Calculations - in this section the two values are added together and divide by 100 to give a total in Euros (and Cents)
+3) Output - the print command is used to output the result back to the terminal. The output is formatted to ensure that two decimal places are displayed. 
 
 Additional Links referenced for this task:  
 Information on handling Decimals taken from the following sources to ensure the output had 2 decimal places   https://www.w3schools.com/python/python_string_formatting.asp  and  https://thepythonguru.com/python-string-formatting/
