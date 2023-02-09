@@ -13,8 +13,8 @@ second_number = int(input("\nInput the second number in cents: "))
 print (f"\nThe second amount in Cent is: {second_number}")
 
 # calculations
-# define a new variable, numtotal, add the two numbers and divide the total by 100 to convert to euros
-numtotal = (first_number + second_number)/100
+# define a new variable, numtotal as an int, add the two numbers and divide the total by 100 to convert to euros
+numtotal = int(first_number + second_number)/100
 
 # output section
 # format numtotal variable to have 2 decimal places
