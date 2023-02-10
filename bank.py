@@ -17,7 +17,5 @@ print (f"\nThe second amount in Cent is: {second_number}")
 numtotal = int(first_number + second_number)/100
 
 # output section
-# format numtotal variable to have 2 decimal places
-numtotal = "€{:.2f}".format(numtotal)
-# Add a new line and print the output
-print (f"\nThe total in Euros and Cents is: {numtotal}")
+# Add a new line and print the output formatted to 2 decimal places
+print (f"\nThe total in Euros and Cents is: €{numtotal:.2f}")
