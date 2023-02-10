@@ -32,7 +32,7 @@ Filename: bank.py (Task02)
 Summary: Script to input two integer values, add them together and output the result
 
 Details: The purpose of this script is to prompt the user to input two values (in cents), add the two values together and output the result (in euros). The script is broken down into three sections.
-1) Input - prompt the user to input two values in cents. The inputted values are then displayed back to the user. (Note: No validations are added at this stage to enforce the entry in INT format - we could have used ValueError.)
+1) Input - prompt the user to input two values in cents. The inputted values are then displayed back to the user. (Note: No validations are added at this stage  - entering a non INT value will cause the script to fail - we could have used ValueError to get around this.)
 2) Calculations - in this section the two values are added together and divided by 100 to give a total in Euros (and Cents)
 3) Output - the print command is used to output the result back to the terminal. The output is formatted to ensure that two decimal places are displayed. 
 
