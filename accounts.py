@@ -4,11 +4,7 @@
 # number with the last 4 digits showing as input and the others replaced with XXXXXX
 # Part2 is to do likewise with an account number (string) of any length
 
-# Links
-# Details on splicing - https://www.w3schools.com/python/python_strings_slicing.asp
-
-# Part1
-# read in the 10 digit account number as a string
+# Part1: read in the 10 digit account number as a string
 acc_num = input("Please enter the 10 digit account number: ")
 # strip out the last 4 digits to be used in the result
 last_4_digits = acc_num[6:]
@@ -16,11 +12,8 @@ last_4_digits = acc_num[6:]
 acc_num_masked = 6*"X"+last_4_digits
 print (f"\nThe account number in masked format is {acc_num_masked}")
 
-# Part2
-# read in the account number, which could be any length
+# Part2: read in the account number, which could be any length
 acc_num2 = input("Please enter the account number (of any length): ")
-first_6_digits = acc_num[0:5]
-last_4_digits2 = acc_num2[-4:]
 # check the length
 acc_num_len2 = len(acc_num2)
 # amount of account number to be masked i.e. length-4 
