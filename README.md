@@ -47,11 +47,12 @@ Filename: accounts.py (Task03)
 Summary: Read in a 10 character account number and output the number with the last 4 digits showing as input and the others replaced with XXXXXX. Do likewise with a string of any length.
 
 Details: This script is split into two sections. The first part is to take in a 10 character string as input, replace the first six characters with the character 'X' and output the result. 
-Using xxx we can ensure the input is 10 characters and as it is a defined length string we use xxx to do yyy...  
+We assume that the input is indeed 10 characters and no validation on the length is required. 
 
-The second part of this script is to take in a string of any length and again only printing the last four digits as inputed and replacing the rest with 'X'. We follow the same structure as in part1 above but check the length of the string after it has been inputed to identify how many characters we need to replace.
+The second part of this script is to take in a string of any length and again only printing the last four digits as inputed and replacing the rest with 'X'. We follow the same structure as in part1 above but check the length of the string after it has been inputed to identify how many characters we need to replace (Length-4). We then replace this with the equivalent number of "X" charactes and combine with the last 4 to get the result
 
 Additional Links referenced for this task:  
+Details on string slicing from - https://www.w3schools.com/python/python_strings_slicing.asp
 
 # 4. task4
 
