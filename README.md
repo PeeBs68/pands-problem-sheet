@@ -52,7 +52,7 @@ We assume that the input is indeed 10 characters and no validation on the length
 The second part of this script is to take in a string of any length and again only printing the last four digits as inputed and replacing the rest with 'X'. We follow the same structure as in part1 above but check the length of the string after it has been inputed to identify how many characters we need to replace (Length-4). We then replace this with the equivalent number of "X" charactes and combine with the last 4 to get the result
 
 Additional Links referenced for this task:  
-Details on string slicing from - https://www.w3schools.com/python/python_strings_slicing.asp
+Details on string slicing from - https://www.w3schools.com/python/python_strings_slicing.asp and examples here https://stackoverflow.com/questions/52408105/masking-part-of-a-string
 
 # 4. task4
 
