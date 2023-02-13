@@ -9,7 +9,8 @@ VS Code: 1.74.3
 **General Links and Sources**  
 https://www.markdownguide.org/cheat-sheet - TOC Formatting ideas   
 https://www.w3schools.com/python/python_operators.asp - Python Operators
-https://stackoverflow.com/questions/57150426/what-is-printf - use of and examples of print (f"..")
+https://realpython.com/python-f-strings/ - f strings
+https://stackoverflow.com/questions/57150426/what-is-printf - other uses and examples of f strings
 
 ---
 **Table of Contents**
