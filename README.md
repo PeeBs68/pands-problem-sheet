@@ -19,7 +19,7 @@ https://stackoverflow.com/questions/57150426/what-is-printf - other uses and exa
 | helloworld.py | Task1: Output **Hello World** to the terminal window. | [Task01](#1-helloworld) 
 | bank.py| Task2: Take two inputs in Cents, add them and output the result in Euros | [Task02](#2-bank) 
 | accounts.py| Task3: Replace characters in a string with 'X' | [Task03](#3-accounts) 
-| task4.py| Task4: Placeholder for Task4 | [Task04](#4-task4) 
+| collatz.py| Task4: Placeholder for Task4 | [Task04](#4-collatz) 
 | task5.py| Task5: Placeholder for Task5 | [Task05](#5-task5) 
 
 # 1. helloworld
@@ -60,7 +60,7 @@ We assume that the input is indeed 10 characters and no validation on the length
 Additional Links referenced for this task:  
 Details on string slicing from - https://www.w3schools.com/python/python_strings_slicing.asp and examples here https://stackoverflow.com/questions/52408105/masking-part-of-a-string
 
-# 4. task4
+# 4. collatz
 
 Filename: xxx.py (Task04)
 
