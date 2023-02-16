@@ -32,8 +32,6 @@ Summary: Simple script to output **Hello World** to the terminal window.
 
 Details: The purpose of this script is to print the string "Hello World!".
 
-image.png
-
 # 2. bank
 
 Filename: bank.py (Task02)
@@ -66,11 +64,14 @@ Details on string slicing from - https://www.w3schools.com/python/python_strings
 
 # 4. collatz
 
-Filename: xxx.py (Task04)
+Filename: collatz.py (Task04)
 
 Summary: Placeholder for Task4
 
 Details:
+
+Additional Links referenced for this task:  
+details on how to remove the brackets in the output - https://stackoverflow.com/questions/62901226/howto-print-list-without-brackets-and-comma-python
 
 # 5. task5
 
