@@ -13,3 +13,17 @@ else:
         newnum=(number*3)+1
 print (number, newnum)
 
+# Might be able to reuse some of this...
+b = []
+print ('What is Sarahs age?')
+isCorrect = False
+while isCorrect == False:
+    response = int(input("?"))
+    b.append(response)
+    if int(response) == 21:
+        isCorrect = True
+        print ('Yep, thats right, well done')
+        print ('You tried...' + str(b))
+        print (f"You tried...{b}")
+    else:
+        print ('Nope, try again')
