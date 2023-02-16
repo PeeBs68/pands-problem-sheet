@@ -3,33 +3,26 @@
 # Purpose: input any positive integer, output the values after some calculations
 # If the number is odd, multiple by 3 and add 1, if even, divide by 2. And so on until the number is 1
 
-
+# define a list to hold the results
+list_of_nums = []
 # Input a number
-number = int(input("Enter a positive number: "))
+number = int(input("Please enter a positive integer: "))
+# print (int(number))
+list_of_nums.append(number)
 # While number is not equal to 1 do the below until it is
-while (number !=1):
-    print (number) # NOTE Seems to get stuck on this...
+while number != 1:
+# Check if it is divisible by 2 with no remainder, if so then it is Even
     if (number % 2) == 0:
-        newnum=(number/2)
-    else:
-        newnum=(number*3)+1
-print (number, newnum)
+        number = (number/2)
+        list_of_nums.append(int(number))
+#        print (int(number))
+    else: 
+# If not divisible by 2 then it must be odd
+        number=(number*3)+1
+        list_of_nums.append(int(number))
+#        print (int(number))
+# print ("All Done!")
+print (*list_of_nums)
 
-# Might be able to reuse some of this...
-#b = []
-#print ('What is Sarahs age?')
-#isCorrect = False
-#while isCorrect == False:
-#    response = int(input("?"))
-#    b.append(response)
-#    if int(response) == 21:
-#        isCorrect = True
-#       print ('Yep, thats right, well done')
-#       print ('You tried...' + str(b))
-#        print (f"You tried...{b}")
-#    else:
-#        print ('Nope, try again')
-
-        # useful Links
-        # https://www.w3schools.com/python/python_conditions.asp If..Else etc
-        # 
+# Link for removing brackets on output
+# https://stackoverflow.com/questions/62901226/howto-print-list-without-brackets-and-comma-python
