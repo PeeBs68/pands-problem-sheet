@@ -27,3 +27,7 @@ while isCorrect == False:
         print (f"You tried...{b}")
     else:
         print ('Nope, try again')
+
+        # useful Links
+        # https://www.w3schools.com/python/python_conditions.asp If..Else etc
+        # 
