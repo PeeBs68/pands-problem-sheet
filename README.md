@@ -32,6 +32,8 @@ Summary: Simple script to output **Hello World** to the terminal window.
 
 Details: The purpose of this script is to print the string "Hello World!".
 
+image.png
+
 # 2. bank
 
 Filename: bank.py (Task02)
