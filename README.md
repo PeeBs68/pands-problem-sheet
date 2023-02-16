@@ -7,6 +7,7 @@ VS Code: 1.74.3
 
 ---
 **General Links and Sources**  
+https://www.digitalocean.com/community/tutorials/how-to-write-comments-in-python-3 - commets in Python
 https://www.markdownguide.org/cheat-sheet - TOC Formatting ideas   
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github - GitHub README formatting   
 https://www.w3schools.com/python/python_operators.asp - Python Operators   
