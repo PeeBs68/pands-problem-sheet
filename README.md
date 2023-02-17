@@ -7,7 +7,6 @@ VS Code: 1.74.3
 
 ---
 
----
 **Table of Contents**
 | Filename | Short Description | Link |
 | --- | ---| ---|
@@ -78,6 +77,8 @@ Filename: xxx.py (Task05)
 Summary: Placeholder for Task5
 
 Details:
+
+---
 
 **General Links and Sources**  
 https://www.digitalocean.com/community/tutorials/how-to-write-comments-in-python-3 - comments in Python   
