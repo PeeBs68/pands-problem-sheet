@@ -6,13 +6,6 @@ Python v3.10.7
 VS Code: 1.74.3
 
 ---
-**General Links and Sources**  
-https://www.digitalocean.com/community/tutorials/how-to-write-comments-in-python-3 - comments in Python   
-https://www.markdownguide.org/cheat-sheet - TOC Formatting ideas   
-https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github - GitHub README formatting   
-https://www.w3schools.com/python - for general help on everything python   
-https://realpython.com/python-f-strings/ - f strings   
-https://stackoverflow.com/questions/57150426/what-is-printf - other uses and examples of f strings
 
 ---
 **Table of Contents**
@@ -85,3 +78,11 @@ Filename: xxx.py (Task05)
 Summary: Placeholder for Task5
 
 Details:
+
+**General Links and Sources**  
+https://www.digitalocean.com/community/tutorials/how-to-write-comments-in-python-3 - comments in Python   
+https://www.markdownguide.org/cheat-sheet - TOC Formatting ideas   
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github - GitHub README formatting   
+https://www.w3schools.com/python - for general help on everything python   
+https://realpython.com/python-f-strings/ - f strings   
+https://stackoverflow.com/questions/57150426/what-is-printf - other uses and examples of f strings
