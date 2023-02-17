@@ -7,18 +7,20 @@
 list_of_nums = []
 # Input a number
 number = int(input("Please enter a positive integer: "))
+# Add the input number to the list for later output
 list_of_nums.append(number)
-# While number is not equal to 1 do the below until it is
+# While the number is not equal to 1 do the below until it is
 while number != 1:
 # Check if it is divisible by 2 with no remainder, if so then it is Even
     if (number % 2) == 0:
         number = (number/2)
+# Add the calculated number to the list for later output        
         list_of_nums.append(int(number))
     else: 
 # If not divisible by 2 then it must be odd
         number=(number*3)+1
+# Add the input number to the list for later output        
         list_of_nums.append(int(number))
+# Exit the loop and print the list of numbers with the brackets removed        
 print (*list_of_nums)
 
-# Link for removing brackets on output
-# https://stackoverflow.com/questions/62901226/howto-print-list-without-brackets-and-comma-python
