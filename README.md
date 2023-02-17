@@ -19,9 +19,9 @@ https://stackoverflow.com/questions/57150426/what-is-printf - other uses and exa
 | Filename | Short Description | Link |
 | --- | ---| ---|
 | helloworld.py | Task1: Output **Hello World** to the terminal window. | [Task01](#1-Helloworld) 
-| bank.py| Task2: Take two inputs in Cents, add them and output the result in Euros | [Task02](#2-bank) 
-| accounts.py| Task3: Replace characters in a string with 'X' | [Task03](#3-accounts) 
-| collatz.py| Task4: The Collatz Conjecture | [Task04](#4-collatz) 
+| bank.py| Task2: Take two inputs in Cents, add them and output the result in Euros | [Task02](#2-Bank) 
+| accounts.py| Task3: Masking characters in a string with the value 'X' | [Task03](#3-Accounts) 
+| collatz.py| Task4: The Collatz Conjecture | [Task04](#4-Collatz) 
 | task5.py| Task5: Placeholder for Task5 | [Task05](#5-task5) 
 
 # 1. Helloworld
@@ -32,7 +32,7 @@ Summary: Simple script to output **Hello World** to the terminal window.
 
 Details: The purpose of this script is to print the string "Hello World!".
 
-# 2. bank
+# 2. Bank
 
 Filename: bank.py (Task02)
 
@@ -47,7 +47,7 @@ Additional Links referenced for this task:
 Information on handling Decimals taken from the following sources to ensure the output had 2 decimal places   https://www.w3schools.com/python/python_string_formatting.asp  and  https://thepythonguru.com/python-string-formatting/
 
 
-# 3. accounts
+# 3. Accounts
 
 Filename: accounts.py (Task03)
 
@@ -62,7 +62,7 @@ We assume that the input is indeed 10 characters and no validation on the length
 Additional Links referenced for this task:  
 Details on string slicing from - https://www.w3schools.com/python/python_strings_slicing.asp and examples here https://stackoverflow.com/questions/52408105/masking-part-of-a-string
 
-# 4. collatz
+# 4. Collatz
 
 Filename: collatz.py (Task04)
 
