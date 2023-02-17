@@ -10,7 +10,7 @@ VS Code: 1.74.3
 https://www.digitalocean.com/community/tutorials/how-to-write-comments-in-python-3 - comments in Python   
 https://www.markdownguide.org/cheat-sheet - TOC Formatting ideas   
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github - GitHub README formatting   
-https://www.w3schools.com/python/python_operators.asp - Python Operators   
+https://www.w3schools.com/python - for general help on everything python
 https://realpython.com/python-f-strings/ - f strings   
 https://stackoverflow.com/questions/57150426/what-is-printf - other uses and examples of f strings
 
@@ -21,7 +21,7 @@ https://stackoverflow.com/questions/57150426/what-is-printf - other uses and exa
 | helloworld.py | Task1: Output **Hello World** to the terminal window. | [Task01](#1-helloworld) 
 | bank.py| Task2: Take two inputs in Cents, add them and output the result in Euros | [Task02](#2-bank) 
 | accounts.py| Task3: Replace characters in a string with 'X' | [Task03](#3-accounts) 
-| collatz.py| Task4: Placeholder for Task4 | [Task04](#4-collatz) 
+| collatz.py| Task4: The Collatz Conjecture | [Task04](#4-collatz) 
 | task5.py| Task5: Placeholder for Task5 | [Task05](#5-task5) 
 
 # 1. helloworld
@@ -66,12 +66,17 @@ Details on string slicing from - https://www.w3schools.com/python/python_strings
 
 Filename: collatz.py (Task04)
 
-Summary: Placeholder for Task4
+Summary: Script to input a positive integer and apply mathematical operations to it until the nuumber equals 1 - AKA the Collatz Conjecture. Upon finishing, the entire list of generated values are printed.
 
-Details:
+Details: The script first asks for the user to input any positive integer - note, no validations are performed at this stage so if any other data type is entered the script will fail. This number is appended to the list of numbers.
+A while loop is then used to cycle through a number of if statements until the number is equal to 1.
+We first check if the number is even using XXX and if so divide by 2. If not the we assume it is odd and multiple by 3 and add 1. The resulting number is appended to the list of numbers after each calculation.
+The script cycles through the if statements until the while loop is complete (number = 1) and then prints out the full list of numbers formatted with the * to remove the square brackets (see below reference).
 
-Additional Links referenced for this task:  
-details on how to remove the brackets in the output - https://stackoverflow.com/questions/62901226/howto-print-list-without-brackets-and-comma-python
+Additional Links referenced for this task:
+If, elif and else information from https://www.w3schools.com/python/python_conditions.asp   
+While loops explained at https://www.w3schools.com/python/python_while_loops.asp   
+Details on how to remove the brackets in the output - https://stackoverflow.com/questions/62901226/howto-print-list-without-brackets-and-comma-python
 
 # 5. task5
 
