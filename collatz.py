@@ -7,7 +7,6 @@
 list_of_nums = []
 # Input a number
 number = int(input("Please enter a positive integer: "))
-# print (int(number))
 list_of_nums.append(number)
 # While number is not equal to 1 do the below until it is
 while number != 1:
@@ -15,13 +14,10 @@ while number != 1:
     if (number % 2) == 0:
         number = (number/2)
         list_of_nums.append(int(number))
-#        print (int(number))
     else: 
 # If not divisible by 2 then it must be odd
         number=(number*3)+1
         list_of_nums.append(int(number))
-#        print (int(number))
-# print ("All Done!")
 print (*list_of_nums)
 
 # Link for removing brackets on output
