@@ -18,13 +18,13 @@ https://stackoverflow.com/questions/57150426/what-is-printf - other uses and exa
 **Table of Contents**
 | Filename | Short Description | Link |
 | --- | ---| ---|
-| helloworld.py | Task1: Output **Hello World** to the terminal window. | [Task01](#1-helloworld) 
+| helloworld.py | Task1: Output **Hello World** to the terminal window. | [Task01](#1-Helloworld) 
 | bank.py| Task2: Take two inputs in Cents, add them and output the result in Euros | [Task02](#2-bank) 
 | accounts.py| Task3: Replace characters in a string with 'X' | [Task03](#3-accounts) 
 | collatz.py| Task4: The Collatz Conjecture | [Task04](#4-collatz) 
 | task5.py| Task5: Placeholder for Task5 | [Task05](#5-task5) 
 
-# 1. helloworld
+# 1. Helloworld
 
 Filename: helloworld.py (Task01)
 
