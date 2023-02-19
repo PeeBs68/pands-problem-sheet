@@ -26,7 +26,7 @@ Details: The purpose of this script is to print the string "Hello World!".
 
 Input:
 ```
-N/A
+
 ```
 Output:
 ```
