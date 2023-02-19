@@ -51,6 +51,23 @@ We assume that the input is indeed 10 characters and no validation on the length
 
 2) The second part of this script is to take in a string of any length and again only printing the last four digits as inputed and replacing the rest with 'X'. We follow the same structure as in part1 above but check the length of the string after it has been inputed to identify how many characters we need to replace (Length-4). We then replace this with the equivalent number of "X" characters and combine with the last 4 to get the result. If 4 or less characters are entered then the code will not seem to do anything - it needs a minimum of 5 characters to work correctly.
 
+Sample Input1:
+```python
+Please enter the 10 digit account number: 1234ABCD56
+```
+Sample Output1:
+```
+The account number in masked format is XXXXXXCD56
+```
+
+Sample Input2:
+```python
+Please enter the account number (of any length): ABDC1234EFGHIJ
+```
+Sample Output2:
+```
+The account number in masked format is XXXXXXXXXXGHIJ
+```
 Additional Links referenced for this task:  
 Details on string slicing from - https://www.w3schools.com/python/python_strings_slicing.asp and examples here https://stackoverflow.com/questions/52408105/masking-part-of-a-string
 
