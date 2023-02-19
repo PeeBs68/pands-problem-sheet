@@ -66,7 +66,7 @@ We first check if the number is even using the modulus operator (%) and if so di
 The script cycles through the if statements until the while loop is complete (number = 1) and then prints out the full list of numbers formatted with the asterisk (*) to remove the square brackets.   
 
 Sample Input:
-```
+```python
 Please enter a positive integer: 34
 ```
 Sample Output:
