@@ -115,7 +115,7 @@ Sample Output:
 34 17 52 26 13 40 20 10 5 16 8 4 2 1
 ```
 
-Additional Links referenced for this task:
+Additional Links referenced for this task:   
 https://www.w3schools.com/python/python_conditions.asp - If, elif and else information   
 https://www.w3schools.com/python/python_while_loops.asp - while loops explained   
 https://stackoverflow.com/questions/62901226/howto-print-list-without-brackets-and-comma-python - Details on how to remove the square brackets in the output
