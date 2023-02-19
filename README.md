@@ -61,7 +61,7 @@ Filename: collatz.py (Task04)
 Summary: Script to input a positive integer and apply mathematical operations to it until the nuumber equals 1 - AKA the Collatz Conjecture. Upon finishing, the entire list of generated values are printed.
 
 Details: The script first asks for the user to input any positive integer - note, no validations are performed at this stage so if any other data type is entered the script will fail. This number is appended to the list of numbers.   
-A while loop is then used to cycle through a number of if statements until the number is equal to 1.   
+A while loop is then used to cycle through a number of if statements until the number is equal to 1.
 We first check if the number is even using the modulus operator (%) and if so divide it by 2. If not then we assume it is odd and multiple by 3 and add 1. The resulting number is appended to the list of numbers after each calculation.   
 The script cycles through the if statements until the while loop is complete (number = 1) and then prints out the full list of numbers formatted with the * to remove the square brackets (see below reference).
 

@@ -14,13 +14,13 @@ while number != 1:
 # Check if it is divisible by 2 with no remainder, if so then it is Even
     if (number % 2) == 0:
         number = (number/2)
-# Add the calculated number to the list for later output        
+        # Add the calculated number to the list for later output        
         list_of_nums.append(int(number))
     else: 
-# If not divisible by 2 then it must be odd
+        # If not divisible by 2 then it must be odd
         number=(number*3)+1
-# Add the input number to the list for later output        
+        # Add the input number to the list for later output        
         list_of_nums.append(int(number))
-# Exit the loop and print the list of numbers with the brackets removed        
+        # Exit the loop and print the list of numbers with the brackets removed        
 print (*list_of_nums)
 
