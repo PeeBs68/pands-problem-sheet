@@ -68,7 +68,6 @@ The script cycles through the if statements until the while loop is complete (nu
 Sample Input:
 ```
 Please enter a positive integer: 34
-
 ```
 Sample Output:
 ```
