@@ -35,6 +35,19 @@ Details: The purpose of this script is to prompt the user to input two values (i
 2) Calculations - in this section the two values are added together and divided by 100 to give a total in Euros (and Cents). When dividing an INT by an INT Python gives it a type of FLOAT so we need to declare it as type INT.
 3) Output - the print command is used to output the result back to the terminal. The output is formatted to ensure that two decimal places are displayed. 
 
+Sample Input:
+```python
+Input the first number in cents: 50012
+Input the second number in cents: 32290
+```
+Sample Output:
+```
+The first number in Cent is: 50012
+The second number in Cent is: 32290
+
+The total in Euros and Cents is: €823.02
+```
+
 Additional Links referenced for this task:  
 Information on handling Decimals taken from the following sources to ensure the output had 2 decimal places   https://www.w3schools.com/python/python_string_formatting.asp  and  https://thepythonguru.com/python-string-formatting/
 
