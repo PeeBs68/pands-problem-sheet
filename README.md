@@ -63,10 +63,10 @@ Summary: Script to input a positive integer and apply mathematical operations to
 Details: The script first asks for the user to input any positive integer - note, no validations are performed at this stage so if any other data type is entered the script will fail. This number is appended to the list of numbers.   
 A while loop is then used to iterate through a number of if statements until the number is equal to 1.
 We first check if the number is even using the modulus operator (%) and if so divide it by 2. If not then we assume it is odd and multiple by 3 and add 1. The resulting number is appended to the list of numbers after each calculation.   
-The script cycles through the if statements until the while loop is complete (number = 1) and then prints out the full list of numbers formatted with the asterisks (*) to remove the square brackets.   
+The script cycles through the if statements until the while loop is complete (number = 1) and then prints out the full list of numbers formatted with the asterisk (*) to remove the square brackets.   
 
 Sample Input:
-```python
+```
 Please enter a positive integer: 34
 
 ```
