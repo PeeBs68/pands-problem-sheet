@@ -61,14 +61,24 @@ Filename: collatz.py (Task04)
 Summary: Script to input a positive integer and apply mathematical operations to it until the nuumber equals 1 - AKA the Collatz Conjecture. Upon finishing, the entire list of generated values are printed.
 
 Details: The script first asks for the user to input any positive integer - note, no validations are performed at this stage so if any other data type is entered the script will fail. This number is appended to the list of numbers.   
-A while loop is then used to cycle through a number of if statements until the number is equal to 1.
+A while loop is then used to iterate through a number of if statements until the number is equal to 1.
 We first check if the number is even using the modulus operator (%) and if so divide it by 2. If not then we assume it is odd and multiple by 3 and add 1. The resulting number is appended to the list of numbers after each calculation.   
-The script cycles through the if statements until the while loop is complete (number = 1) and then prints out the full list of numbers formatted with the * to remove the square brackets (see below reference).
+The script cycles through the if statements until the while loop is complete (number = 1) and then prints out the full list of numbers formatted with the asterisks (*) to remove the square brackets.   
+
+Sample Input:
+```python
+Please enter a positive integer: 34
+
+```
+Sample Output:
+```
+34 17 52 26 13 40 20 10 5 16 8 4 2 1
+```
 
 Additional Links referenced for this task:
-If, elif and else information from https://www.w3schools.com/python/python_conditions.asp   
-While loops explained at https://www.w3schools.com/python/python_while_loops.asp   
-Details on how to remove the brackets in the output - https://stackoverflow.com/questions/62901226/howto-print-list-without-brackets-and-comma-python
+https://www.w3schools.com/python/python_conditions.asp - If, elif and else information   
+https://www.w3schools.com/python/python_while_loops.asp - while loops explained   
+https://stackoverflow.com/questions/62901226/howto-print-list-without-brackets-and-comma-python - Details on how to remove the square brackets in the output
 
 # 5. task5
 
