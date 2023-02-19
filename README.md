@@ -58,7 +58,8 @@ The total in Euros and Cents is: €823.02
 ```
 
 Additional Links referenced for this task:  
-Information on handling Decimals taken from the following sources to ensure the output had 2 decimal places   https://www.w3schools.com/python/python_string_formatting.asp  and  https://thepythonguru.com/python-string-formatting/
+https://www.w3schools.com/python/python_string_formatting.asp - string formatting   
+https://thepythonguru.com/python-string-formatting/ - more string formatting
 
 
 # 3. Accounts
@@ -91,7 +92,8 @@ Sample Output2:
 The account number in masked format is XXXXXXXXXXGHIJ
 ```
 Additional Links referenced for this task:  
-Details on string slicing from - https://www.w3schools.com/python/python_strings_slicing.asp and examples here https://stackoverflow.com/questions/52408105/masking-part-of-a-string
+https://www.w3schools.com/python/python_strings_slicing.asp - details on string slicing   
+https://stackoverflow.com/questions/52408105/masking-part-of-a-string - string slicing examples
 
 # 4. Collatz
 
