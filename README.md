@@ -136,4 +136,5 @@ https://www.markdownguide.org/cheat-sheet - TOC Formatting ideas
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github - GitHub README formatting   
 https://www.w3schools.com/python - for general help on everything python   
 https://realpython.com/python-f-strings/ - f strings   
-https://stackoverflow.com/questions/57150426/what-is-printf - other uses and examples of f strings
+https://stackoverflow.com/questions/57150426/what-is-printf - other uses and examples of f strings   
+https://python-markdown.github.io/extensions/fenced_code_blocks/ - using fenced code blocks to display input and output sections
