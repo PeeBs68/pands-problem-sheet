@@ -23,7 +23,7 @@ Filename: helloworld.py (Task01)
 
 Summary: Simple script to output **Hello World** to the terminal window. 
 
-Details: The purpose of this script is to print the string "Hello World!".
+Details: The purpose of this script is to print the string "Hello World!". No input is required.
 
 Input:
 ```
@@ -127,7 +127,7 @@ Filename: weekday.py (Task05)
 
 Summary: Placeholder for weekday.py
 
-Details:
+Details: ...No input is required.
 
 Input:
 ```
