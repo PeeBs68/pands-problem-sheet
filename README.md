@@ -129,6 +129,20 @@ Summary: Placeholder for weekday.py
 
 Details:
 
+Input:
+```
+
+```
+Sample Output1:
+```
+Today is a weekday, it's only Wednesday
+```
+```
+Sample Output1:
+```
+***Need to add once we run on a weekend!
+```
+
 Additional Links referenced for this task:   
 https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date - to get the numeric value of today's day
 
