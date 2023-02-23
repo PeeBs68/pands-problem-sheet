@@ -138,9 +138,9 @@ Sample Output1:
 Today is a weekday, it's only Wednesday
 ```
 ```
-Sample Output1:
+Sample Output2:
 ```
-***Need to add once we run on a weekend!
+Need to add once we run on a weekend!
 ```
 
 Additional Links referenced for this task:   
