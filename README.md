@@ -14,7 +14,8 @@ VS Code: 1.74.3
 | bank.py| Task2: Take two inputs in Cents, add them and output the result in Euros | [Task02](#2-Bank) 
 | accounts.py| Task3: Masking characters in a string with the value 'X' | [Task03](#3-Accounts) 
 | collatz.py| Task4: The Collatz Conjecture | [Task04](#4-Collatz) 
-| task5.py| Task5: Placeholder for Task5 | [Task05](#5-task5) 
+| weekday.py| Task5: To output what day of the week it is | [weekday](#5-Weekday) 
+| task6.py| Task5: Placeholder for Task6 | [Task06](#6-task5) 
 
 # 1. Helloworld
 
@@ -120,13 +121,27 @@ https://www.w3schools.com/python/python_conditions.asp - If, elif and else infor
 https://www.w3schools.com/python/python_while_loops.asp - while loops explained   
 https://stackoverflow.com/questions/62901226/howto-print-list-without-brackets-and-comma-python - Details on how to remove the square brackets in the output
 
-# 5. task5
+# 5. weekday
 
-Filename: xxx.py (Task05)
+Filename: weekday.py (Task05)
 
-Summary: Placeholder for Task5
+Summary: Placeholder for weekday.py
 
 Details:
+
+Additional Links referenced for this task:   
+https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date - to get the numeric value of today's day
+
+# 6. task6
+
+Filename: xxx.py (Task06)
+
+Summary: Placeholder for Task6
+
+Details:
+
+
+
 
 ---
 
