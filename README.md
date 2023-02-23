@@ -14,7 +14,7 @@ VS Code: 1.74.3
 | bank.py| Task2: Take two inputs in Cents, add them and output the result in Euros | [Task02](#2-Bank) 
 | accounts.py| Task3: Masking characters in a string with the value 'X' | [Task03](#3-Accounts) 
 | collatz.py| Task4: The Collatz Conjecture | [Task04](#4-Collatz) 
-| weekday.py| Task5: To output what day of the week it is | [weekday](#5-Weekday) 
+| weekday.py| Task5: To output what day of the week it is | [Task05](#5-Weekday) 
 | task6.py| Task5: Placeholder for Task6 | [Task06](#6-task5) 
 
 # 1. Helloworld
