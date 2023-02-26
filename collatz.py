@@ -21,5 +21,5 @@ while number != 1:
         number=(number*3)+1
         # Add the input number to the list for later output        
         list_of_nums.append(int(number))
-        # Exit the loop and print the list of numbers with the brackets removed        
+        # Exit the loop and print the list of numbers formatted on one line with the brackets removed        
 print (*list_of_nums)
