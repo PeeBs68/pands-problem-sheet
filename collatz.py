@@ -23,4 +23,3 @@ while number != 1:
         list_of_nums.append(int(number))
         # Exit the loop and print the list of numbers with the brackets removed        
 print (*list_of_nums)
-
