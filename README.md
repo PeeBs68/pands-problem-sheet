@@ -119,7 +119,7 @@ Sample Output:
 Additional Links referenced for this task:   
 https://www.w3schools.com/python/python_conditions.asp - If, elif and else information   
 https://www.w3schools.com/python/python_while_loops.asp - while loops explained   
-https://stackoverflow.com/questions/62901226/howto-print-list-without-brackets-and-comma-python - Details on how to remove the square brackets in the output
+https://realpython.com/python-print/ - Details on how to remove the square brackets in the output by supressing the default newline after a print statement
 
 # 5. weekday
 
