@@ -127,7 +127,7 @@ Filename: weekday.py (Task05)
 
 Summary: Script to output what day today is.
 
-Details: the script starts by importting the datetime module and then creating a list of week days (Monday -> Sunday). Using the datetime modue we imported, we can identify a numeric value for today's day. Cross checking this against the list of days where 0 = Monday, 1 = Tuesday etc. we can identify what day it is at the time of running the script. No input is required to run this script.
+Details: the script starts by importing the datetime module and then creating a list of week days (Monday -> Sunday). Using the datetime modue we imported, we can identify a numeric value for today's day. Cross checking this against the list of days where 0 = Monday, 1 = Tuesday etc. we can identify what day it is at the time of running the script. We then print the day of the week based on the day value - if it is between 0 and 4 inclusive then it's a weekeday, or else it must be a weekend day. No input is required to run this script.
 
 Input:
 ```
