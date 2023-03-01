@@ -125,9 +125,9 @@ https://realpython.com/python-print/ - Details on how to remove the square brack
 
 Filename: weekday.py (Task05)
 
-Summary: Placeholder for weekday.py
+Summary: Script to output what day today is.
 
-Details: ...No input is required.
+Details: the script starts by importting the datetime module and then creating a list of week days (Monday -> Sunday). Using the datetime modue we imported, we can identify a numeric value for today's day. Cross checking this against the list of days where 0 = Monday, 1 = Tuesday etc. we can identify what day it is at the time of running the script. No input is required to run this script.
 
 Input:
 ```
