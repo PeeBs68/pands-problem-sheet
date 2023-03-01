@@ -10,7 +10,8 @@ acc_num = input("Please enter the 10 digit account number: ")
 last_4_digits = acc_num[6:]
 # Note: This is a simplistic way of replacing the first 6 characters with an X. 
 # Note: And only works if the account number is in fact 10 characters
-# Add the X's to the last 4 digits
+
+# Replace the 1st 6 characters with 'X' and append to the last_4_digits and store in a new string
 acc_num_masked = 6*"X"+last_4_digits
 # Print the result
 print (f"\nThe account number in masked format is {acc_num_masked}")
