@@ -4,11 +4,11 @@
 
 # input section 
 # input the 1st input as an integer
-first_number = int(input("\nInput the first number in cents: "))
+first_number = int(input("\nInput the first number in Cents: "))
 # Add a new line and output the input value in Cents 
 print (f"\nThe first amount in Cent is: {first_number}")
 # input the 2nd input as an integer
-second_number = int(input("\nInput the second number in cents: "))
+second_number = int(input("\nInput the second number in Cents: "))
 # Add a new line and output the input value in Cents 
 print (f"\nThe second amount in Cent is: {second_number}")
 
