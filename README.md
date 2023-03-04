@@ -140,7 +140,7 @@ Today is a weekday, it's only Wednesday
 
 Sample Output2:
 ```
-Need to add once we run on a weekend!
+Today is Saturday so it's the weekend!!!
 ```
 
 Additional Links referenced for this task:   
