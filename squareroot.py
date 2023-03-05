@@ -6,17 +6,17 @@
 
 def sqrt(number, num_of_iterations, tolerence_level):
     counter=0
-    #for x in range (num_of_iterations):
-    while counter < num_of_iterations:
-        print (counter)
+    for x in range (num_of_iterations):
+    #while counter < num_of_iterations:
+        #print (counter)
         #formula here...x= something
         newnumber = number+1
-        print (number)
-        counter+=1
+        #print (number)
+        #counter += 1
         number=number+1
-        print (number)
+        #print (number)
         #while abs(x) is > tolerence_level:
-        return newnumber
+    return newnumber
 
 
 # the actual code
