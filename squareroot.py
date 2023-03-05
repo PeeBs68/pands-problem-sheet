@@ -1,27 +1,28 @@
 # squareroot.py
 # Author: Phelim Barry
 # Purpose: script to use a function to calculate the square root of a positive floating point number
-
 # look at the newton method at estimating square roots.
 # Minute 17 of this vid has some ideas - https://www.youtube.com/watch?v=szQUIRPrAgQ
 
-#Define the function and input values
-#Input Number, Number of iterations, Tolerence Level,
-def sqrt(num, num_of_iterations, tolerence_level):
-    for x in range (num_of_iterations):
-    #formula here...x= something
-        while abs(x) is > tolerence_level:
-            newnum = x
-    return newnum
-    
-#Sample Input
-num = int(input("Enter a positive number: "))
-# Do a check here to see if it is positive
+def sqrt(number, num_of_iterations, tolerence_level):
+    counter=0
+    #for x in range (num_of_iterations):
+    while counter < num_of_iterations:
+        #formula here...x= something
+        newnumber = number+1
+        print (number)
+        counter+=1
+        number=number+1
+        #while abs(x) is > tolerence_level:
+        return newnumber
 
-num_of_iterations = 100
-tolerence_level = 0.001 
-#call the function with parameters
-sqrt(num, num_of_iterations, tolerence_level)
 
-#Sample output
-print(f"The square root of {num} is {newnum}")
+# the actual code
+#We can set these two if we want or just ignore them
+num_of_iterations = 10
+tolerence_level = 0
+number = int((input("Enter a number:  ")))
+newnumber=number
+#Run the funtion with arguements if need be
+newnumber=sqrt(number,num_of_iterations,tolerence_level)
+print (f"Answer = {newnumber}")
