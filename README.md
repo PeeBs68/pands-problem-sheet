@@ -15,8 +15,8 @@ VS Code: 1.74.3
 | accounts.py| Task3: Masking characters in a string with the value 'X' | [Task03](#3-Accounts) 
 | collatz.py| Task4: The Collatz Conjecture | [Task04](#4-Collatz) 
 | weekday.py| Task5: To output what day of the week it is | [Task05](#5-Weekday) 
-| squareroot.py| Task5: To calculate the square root using the Newton method | [Task06](#6-task6) 
-| task7.py| Task5: Placeholder for Task7 | [Task07](#7-task7) 
+| squareroot.py| Task6: To calculate the square root using the Newton method | [Task06](#6-squareroot) 
+| task7.py| Task7: Placeholder for Task7 | [Task07](#7-task7) 
 
 # 1. Helloworld
 
@@ -156,7 +156,7 @@ Summary: Placeholder for Task6
 Details:
 
 
-# 6. task7
+# 7. task7
 
 Filename: xxx.py (Task07)
 
