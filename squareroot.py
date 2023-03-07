@@ -12,6 +12,7 @@
 def sqrt(num):
         tempnum = num
         #use abs to get a positive value
+        #compare the num with the first guess (will always be way off but is a starting point)
         while abs(tempnum - num * num) > tolerence_level:
                 #get a new guess and try again
                 num = (num+(tempnum/num))/2
