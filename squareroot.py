@@ -6,11 +6,12 @@
 
 def sqrt(number, num_of_iterations, tolerence_level):
     for x in range (num_of_iterations):
-        #formula here...x= something
+        root = 0.5 * (x + (n / x))
         newnumber = number+1
         number=number+1
         #while abs(x) is > tolerence_level:
     return newnumber
+       
 
 # the actual code
 #We can set these two if we want or just ignore them
