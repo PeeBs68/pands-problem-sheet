@@ -15,7 +15,8 @@ VS Code: 1.74.3
 | accounts.py| Task3: Masking characters in a string with the value 'X' | [Task03](#3-Accounts) 
 | collatz.py| Task4: The Collatz Conjecture | [Task04](#4-Collatz) 
 | weekday.py| Task5: To output what day of the week it is | [Task05](#5-Weekday) 
-| task6.py| Task5: Placeholder for Task6 | [Task06](#6-task5) 
+| squareroot.py| Task5: To calculate the square root using the Newton method | [Task06](#6-task6) 
+| task7.py| Task5: Placeholder for Task7 | [Task07](#7-task7) 
 
 # 1. Helloworld
 
@@ -146,16 +147,22 @@ Today is Saturday so it's the weekend!!!
 Additional Links referenced for this task:   
 https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date - to get the numeric value of today's day
 
-# 6. task6
+# 6. squareroot
 
-Filename: xxx.py (Task06)
+Filename: squareroot.py (Task06)
 
 Summary: Placeholder for Task6
 
 Details:
 
 
+# 6. task7
 
+Filename: xxx.py (Task07)
+
+Summary: Placeholder for Task7
+
+Details:
 
 ---
 
