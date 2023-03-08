@@ -10,21 +10,21 @@
 #NOTE add in actual maths formula and iterative formula (as below)
 
 def sqrt(num):
-        #define tempnum (as the original number), because we need two versions of num as such
+        #define orig_num (as the original number), because we don't want that to change
         orig_num = num
         #Try a first guess and see the answer is less than the tolerence we set below (will usually be way off)
         #use abs to get a positive value
         while abs(orig_num - num * num) > tolerence_level:
                 #get a new guess and try again
-                print (num) # Just for testing - take it out later
                 num = (num+(orig_num/num))/2
-                root = num
+        #assign the final result to the variable root and return it to the main program
+        root = num
         return root
 
 # the actual code
 #We can set these two if we want - need to use one or the other (or both)
-num_of_iterations = 10
-tolerence_level = .000001
+num_of_iterations = 10 #how many times we want the while loop to run
+tolerence_level = .000001 #how close we want the resut to be 
 #define input num as a float so decimals can be entered
 num = float(input("Please enter a positive number:  "))
 #Run the funtion with additional arguements if need be
