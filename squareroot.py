@@ -11,13 +11,13 @@
 
 def sqrt(num):
         #define tempnum (as the original number), because we need two versions of num as such
-        tempnum = num
+        orig_num = num
         #Try a first guess and see the answer is less than the tolerence we set below (will usually be way off)
         #use abs to get a positive value
-        while abs(tempnum - num * num) > tolerence_level:
+        while abs(orig_num - num * num) > tolerence_level:
                 #get a new guess and try again
                 print (num) # Just for testing - take it out later
-                num = (num+(tempnum/num))/2
+                num = (num+(orig_num/num))/2
                 root = num
         return root
 
