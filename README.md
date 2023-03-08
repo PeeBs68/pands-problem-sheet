@@ -154,6 +154,7 @@ Filename: squareroot.py (Task06)
 Summary: Script to calculate the square root of a number using the Newtons method
 
 Details: The purpose of this script is to calculate the square root of a number using the Newton's method for square roots. This method starts with an initial guess of the square root and uses increasingly better approximations of the root until a final answer that is sufficiently precise is found. 
+Input validation is included to ensure a positive float value is entered by the user. If true then the function sqrt(num) is called with the input number included as an arguement.
 
 Sample Input:
 ```
@@ -165,6 +166,9 @@ The square Root of 14.5 is approx. 3.8
 ```
 
 Additional Links referenced for this task: 
+https://www.youtube.com/watch?v=2158QbsunA8 - maths formula for Newtons method
+https://www.youtube.com/watch?v=szQUIRPrAgQ - Newtons method showing use of levels of tolerance and iterations
+https://stackoverflow.com/questions/55888265/time-complexity-for-square-root-using-newtons-method - formula for generating new iterations of the guess
 
 
 # 7. task7
