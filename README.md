@@ -151,9 +151,20 @@ https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a
 
 Filename: squareroot.py (Task06)
 
-Summary: Placeholder for Task6
+Summary: Script to calculate the square root of a number using the Newtons method
 
-Details:
+Details: The purpose of this script is to calculate the square root of a number using the Newton's method for square roots. This method starts with an initial guess of the square root and uses increasingly better approximations of the root until a final answer that is sufficiently precise is found. 
+
+Sample Input:
+```
+Please enter a positive number:  14.5
+```
+Sample Output:
+```
+The square Root of 14.5 is approx. 3.8
+```
+
+Additional Links referenced for this task: 
 
 
 # 7. task7
