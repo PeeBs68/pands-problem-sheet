@@ -10,9 +10,10 @@
 #NOTE add in actual maths formula and iterative formula (as below)
 
 def sqrt(num):
+        #define tempnum, because we need two versions of num as such
         tempnum = num
+        #Try a first guess and see if it is less than the tolerence we set below (will usually be way off)
         #use abs to get a positive value
-        #compare the num with the first guess (will always be way off but is a starting point)
         while abs(tempnum - num * num) > tolerence_level:
                 #get a new guess and try again
                 num = (num+(tempnum/num))/2
@@ -25,8 +26,9 @@ def sqrt(num):
 #We can set these two if we want - need to use one or the other (or both)
 num_of_iterations = 10
 tolerence_level = .000001
-#define as a float so decimals can be entered
-num = float(input("Please neter a positive number:  "))
+#define input num as a float so decimals can be entered
+num = float(input("Please enter a positive number:  "))
 #Run the funtion with additional arguements if need be
 root = sqrt(num)
+#print out the result to 1 decimal place
 print (f"The square Root of {num} is approx. {root:.1f}")
