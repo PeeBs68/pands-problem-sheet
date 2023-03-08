@@ -16,7 +16,7 @@ VS Code: 1.74.3
 | collatz.py| Task4: The Collatz Conjecture | [Task04](#4-Collatz) 
 | weekday.py| Task5: To output what day of the week it is | [Task05](#5-Weekday) 
 | squareroot.py| Task6: To calculate the square root using the Newton method | [Task06](#6-squareroot) 
-| task7.py| Task7: Placeholder for Task7 | [Task07](#7-task7) 
+| es.py| Task7: Placeholder for Task7 | [Task07](#7-es) 
 
 # 1. Helloworld
 
@@ -175,13 +175,24 @@ https://www.youtube.com/watch?v=szQUIRPrAgQ - Newtons method showing use of leve
 https://stackoverflow.com/questions/55888265/time-complexity-for-square-root-using-newtons-method - formula for generating new iterations of the guess
 
 
-# 7. task7
+# 7. es
 
-Filename: xxx.py (Task07)
+Filename: es.py (Task07)
 
 Summary: Placeholder for Task7
 
-Details:
+Details: 
+
+Sample Input:
+```
+aaa
+```
+Sample Output:
+```
+xxx
+```
+
+Additional Links referenced for this task: 
 
 ---
 
