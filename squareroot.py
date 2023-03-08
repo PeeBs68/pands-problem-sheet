@@ -10,16 +10,15 @@
 #NOTE add in actual maths formula and iterative formula (as below)
 
 def sqrt(num):
-        #define tempnum, because we need two versions of num as such
+        #define tempnum (as the original number), because we need two versions of num as such
         tempnum = num
-        #Try a first guess and see if it is less than the tolerence we set below (will usually be way off)
+        #Try a first guess and see the answer is less than the tolerence we set below (will usually be way off)
         #use abs to get a positive value
         while abs(tempnum - num * num) > tolerence_level:
                 #get a new guess and try again
-                num = (num+(tempnum/num))/2
                 print (num) # Just for testing - take it out later
+                num = (num+(tempnum/num))/2
                 root = num
-                print (root) # Just for testing - take it out later
         return root
 
 # the actual code
