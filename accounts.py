@@ -4,13 +4,13 @@
 # number with the last 4 digits showing as input and the others replaced with XXXXXX
 # Part2 is to do likewise with an account number (string) of any length
 
-# Part1: read in the 10 digit account number as a string
 acc_num = input("Please enter the 10 digit account number: ")
+#check that the entered number is 10 characters and if not ask for a re-entry until it is
+while len(acc_num) != 10:
+    acc_num = input("Incorrect entry - please enter a 10 digit account nnumber: ")
 # strip out and store the last 4 digits to be used in the result
 last_4_digits = acc_num[6:]
-# Note: This is a simplistic way of replacing the first 6 characters with an X. 
-# Note: And only works if the account number is in fact 10 characters
-
+# Note: This is a simplistic way of replacing the first 6 characters with an X becase we know the length is exactly 10 characters. 
 # Replace the 1st 6 characters with 'X' and append to the last_4_digits and store in a new string
 acc_num_masked = 6*"X"+last_4_digits
 # Print the result
