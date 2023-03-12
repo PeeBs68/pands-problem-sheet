@@ -72,9 +72,9 @@ Summary: Read in a 10 character account number and output the number with the la
 
 Details: This script is split into two sections. 
 1) The first part is to take in a 10 character string as input, replace the first six characters with the character 'X' and output the result. 
-We assume that the input is indeed 10 characters and no validation on the length is required. We use a simple method of string slicing to strip out the last four characters and added 6*"X" to the beginning.
+Using a while loop we validate that the account number entered is in fact 10 characters. We use a simple method of string slicing to strip out the last four characters and added 6*"X" to the beginning. Using hard coding of 6*"X" works because we have enforced the entry of 10 characters. The method used in section 2 below would also work for this section and may be a better way of doing it.
 
-2) The second part of this script is to take in a string of any length and again only printing the last four digits as inputed and replacing the rest with 'X'. We follow the same structure as in part1 above but check the length of the string after it has been inputed to identify how many characters we need to replace (Length-4). We then replace this with the equivalent number of "X" characters and combine with the last 4 to get the result. If 4 or less characters are entered then the code will not seem to do anything - it needs a minimum of 5 characters to work correctly.
+2) The second part of this script is to take in a string of any length and again only printing the last four digits as inputed and replacing the rest with 'X'. We follow the same structure as in part1 above but remove the length validation. We check the length of the string after it has been input to identify how many characters we need to replace (Length-4). We then replace this with the equivalent number of "X" characters and combine with the last 4 to get the result. If 4 or less characters are entered then the code will not seem to do anything - it needs a minimum of 5 characters to work correctly.
 
 Sample Input1:
 ```python
