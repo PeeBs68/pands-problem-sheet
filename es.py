@@ -2,16 +2,22 @@
 # Author: Phelim Barry
 # Purpose: Write a program that reads in a text file and outputs the number of e's it contains
 
-# Get the file name ...The program should take the filename from an argument on the command line. I have not shown you how to do this, you need to look it up
-# Maybe here - https://www.geeksforgeeks.org/command-line-arguments-in-python/
 # use this link - https://www.w3schools.com/python/python_file_open.asp
 # this will also be useful - https://realpython.com/read-write-files-python/
 
-'''To make that possible sys method was imported. Using the sys.argv[1] variable, it is defined that the filename is second argument when calling a program ( sys.argv[0] is the program we are trying to start ).
-References for this part of program go to Python documentation and Geeksforgeeks.org.
+#Import the sys module
+import sys
 
-With the open( filename,'r' ) function we are opening a file that we called in the command line argument, and making it available just for reading. For counting the lower case letter 'e' the method count() was used, and the argument is a string "e". Reference for the count() method is Programiz.
-'''
+#get the filename from the command line
+FILENAME = sys.argv[1]
 
-#Calculate and Print out the number of e's
-num_of_e = file.count("e")
+#Note this will be an exact search - i.e. lowercase e only
+letter_to_find = "r"
+with open(FILENAME, 'r') as f:
+        string1 = f.read()
+
+#count the number of e's (or whatever the variable letter_to_fine is set to)
+num_of_e = string1.count(letter_to_find)
+print (f"The number of {letter_to_find}'s in {FILENAME} is {num_of_e}")
+
+#https://www.geeksforgeeks.org/command-line-arguments-in-python/
