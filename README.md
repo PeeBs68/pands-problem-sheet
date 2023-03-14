@@ -159,7 +159,7 @@ Details: The purpose of this script is to calculate the square root of a number 
 Input validation is included to ensure a positive float value is entered by the user by checking if the number is greater than 0. using a while loop the script will iterate until a positive value is entered.
 We also define a variable for tolerance level which is how accurate we want our result to be. A level of .0001 is deemed appropriate in this case.  
 
-We create a new function, sqrt(num), and once called with the input number included as an arguement, the function tries an initial guess at the answer and compares it against the tolerance level. It then iterates through a while loop, applying the square root formula until a result is found within the tolerance level. This result is then returned to the script for printing.
+We create a new function, sqrt(num), and once called with the input number included as an arguement, the function tries an initial guess at the answer and compares it against the tolerance level. It then iterates through a while loop, applying the square root formula until a result is found within the tolerance level. This result is then returned to the script for printing with the value formatted with one decimal place using :.1f.
 
 Sample Input:
 ```
