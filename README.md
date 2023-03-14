@@ -197,10 +197,10 @@ The number of e's in readme.md is 782
 ```
 
 Assumptions:   
-The script will look for an exact match of the letter in question so will not return occurances of upper case letters if looking for lower case letters and vice versa. upper() or lower() could have been used to convert the contents as needed if this was a requirement.
+The script will look for an exact match of the letter in question so will not return occurances of upper case letters if looking for lower case letters and vice versa. upper() or lower() could have been used to convert the contents as needed if this was a requirement.   
 Also, we do not validate if the filename entered exists or not. If an invalid filename is entered then the script will fail. 
 
-Additional Links referenced for this task: 
+Additional Links referenced for this task:   
 #https://www.geeksforgeeks.org/command-line-arguments-in-python/ - details on using command line arguements   
 https://www.w3schools.com/python/python_file_open.asp - openng and reading from files   
 https://realpython.com/read-write-files-python/ - details on opening and closing files   
