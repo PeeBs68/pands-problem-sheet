@@ -174,6 +174,7 @@ Additional Links referenced for this task:
 https://www.youtube.com/watch?v=2158QbsunA8 - maths formula for Newtons method   
 https://www.youtube.com/watch?v=szQUIRPrAgQ - Newtons method showing use of levels of tolerance and iterations   
 https://stackoverflow.com/questions/55888265/time-complexity-for-square-root-using-newtons-method - formula for generating new iterations of the guess
+https://www.sciencedirect.com/topics/mathematics/newton-raphson-method - suggestion for tolerance level to use.
 
 
 # 7. es
