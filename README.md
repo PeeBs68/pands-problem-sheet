@@ -16,7 +16,8 @@ VS Code: 1.74.3
 | collatz.py| Task4: The Collatz Conjecture | [Task04](#4-Collatz) 
 | weekday.py| Task5: To output what day of the week it is | [Task05](#5-Weekday) 
 | squareroot.py| Task6: To calculate the square root using the Newton method | [Task06](#6-squareroot) 
-| es.py| Task7: Placeholder for Task7 | [Task07](#7-es) 
+| es.py| Task7: Count the number of occurrances of a letter in a file, using command line arguements | [Task07](#7-es) 
+| temp.py| Task8: Placeholder for Task08 | [Task08](#8-temp) 
 
 # 1. Helloworld
 
