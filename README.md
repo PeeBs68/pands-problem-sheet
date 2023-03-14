@@ -179,20 +179,31 @@ https://stackoverflow.com/questions/55888265/time-complexity-for-square-root-usi
 
 Filename: es.py (Task07)
 
-Summary: Placeholder for Task7
+Summary: Script to count the number of 'e's in a file.
 
-Details: 
+Details: the purpose of this script is to count the number of occurances of the letter e in a file. The filename is not hardcoded into the script but is given as an arguement through the command line and using sys.argv[1] we assign it to the FILENAME variable. (sys.argv[0] would be the actual script name)   
+
+In this script we assign the letter to be found in a variable instead of hardcoding it so it can be changed easier if need be. Next step is to open the file in read only mode and and read in the contents as a string.   
+
+Finally we count the occurances of the variable in question (i.e. 'e') and print the result.
 
 Sample Input:
 ```
-aaa
+python3 es.py readme.md
 ```
 Sample Output:
 ```
-xxx
+The number of e's in readme.md is 782
 ```
 
+Assumptions:   
+The script will look for an exact match of the letter in question so will not return occurances of upper case letters if looking for lower case letters and vice versa. upper() or lower() could have been used to convert the contents as needed if this was a requirement.
+Also, we do not validate if the filename entered exists or not. If an invalid filename is entered then the script will fail. 
+
 Additional Links referenced for this task: 
+#https://www.geeksforgeeks.org/command-line-arguments-in-python/ - details on using command line arguements   
+https://www.w3schools.com/python/python_file_open.asp - openng and reading from files   
+https://realpython.com/read-write-files-python/ - details on opening and closing files   
 
 ---
 
