@@ -173,7 +173,7 @@ The square Root of 14.5 is approx. 3.8
 Additional Links referenced for this task:   
 https://www.youtube.com/watch?v=2158QbsunA8 - maths formula for Newtons method   
 https://www.youtube.com/watch?v=szQUIRPrAgQ - Newtons method showing use of levels of tolerance and iterations   
-https://stackoverflow.com/questions/55888265/time-complexity-for-square-root-using-newtons-method - formula for generating new iterations of the guess
+https://stackoverflow.com/questions/55888265/time-complexity-for-square-root-using-newtons-method - formula for generating new iterations of the guess   
 https://www.sciencedirect.com/topics/mathematics/newton-raphson-method - suggestion for tolerance level to use.
 
 
