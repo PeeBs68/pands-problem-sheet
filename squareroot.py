@@ -20,7 +20,7 @@ def sqrt(num):
 
 # the actual code
 #set a tolerance level - i.e. how accurate do we want the result to be
-tolerence_level = .000001
+tolerence_level = .0001
 
 #define input num as a float so decimals can be entered
 num = float(input("Please enter a positive number:  "))
