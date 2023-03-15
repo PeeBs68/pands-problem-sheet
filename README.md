@@ -17,7 +17,7 @@ VS Code: 1.74.3
 | weekday.py| Task5: To output what day of the week it is | [Task05](#5-Weekday) 
 | squareroot.py| Task6: To calculate the square root using the Newton method | [Task06](#6-squareroot) 
 | es.py| Task7: Count the number of occurrances of a letter in a file, using command line arguements | [Task07](#7-es) 
-| temp.py| Task8: Placeholder for Task08 | [Task08](#8-temp) 
+| plottask.py| Task8: Placeholder for Task08 | [Task08](#8-plottask) 
 
 # 1. Helloworld
 
@@ -206,6 +206,30 @@ Additional Links referenced for this task:
 #https://www.geeksforgeeks.org/command-line-arguments-in-python/ - details on using command line arguements   
 https://www.w3schools.com/python/python_file_open.asp - openng and reading from files   
 https://realpython.com/read-write-files-python/ - details on opening and closing files   
+
+
+# 8. plottask
+
+Filename: plottask.py (Task08)
+
+Summary: 
+
+Details: 
+
+Sample Input:
+```
+
+```
+Sample Output:
+```
+
+```
+
+Assumptions:   
+
+
+Additional Links referenced for this task:   
+  
 
 ---
 
