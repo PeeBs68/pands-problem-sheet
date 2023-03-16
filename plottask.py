@@ -24,8 +24,14 @@ numbers = np.random.normal(loc=mean, scale=std_dev, size=count_num)
 
 x = np.array(range(0, 10))
 print (x)
-y = x * x * x
+#Cube x
+y = x**3
 
-plt.plot(x, y)
-plt.hist(numbers)
+plt.title("Histogram and Number Plotting")
+plt.xlabel("Numbers")
+plt.ylabel("Height")
+
+plt.plot(x, y, label ='Y = x3')
+plt.hist(numbers, label ='Random Numbers Hist')
+plt.legend()
 plt.show()
