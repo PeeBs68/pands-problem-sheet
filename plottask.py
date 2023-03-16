@@ -1,6 +1,6 @@
 # plottask.py
 # author: Phelim Barry
-# Simple script to output Hello World!
+# Scripts to...
 
 '''
 Write a program called plottask.py that displays:
@@ -12,4 +12,20 @@ Some marks will be given for making the plot look nice (legend etc).
 '''
 
 #Need to import numpy as x
-#to generate random numbers use: numbers=x.random.randint(100,200,30)
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+count_num = 1000
+std_dev = 2
+mean = 5
+#loc = mean, scale = standard deviation, size = sample size
+numbers = np.random.normal(loc=mean, scale=std_dev, size=count_num)
+
+x = np.array(range(0, 10))
+print (x)
+y = x * x * x
+
+plt.plot(x, y)
+plt.hist(numbers)
+plt.show()
