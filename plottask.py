@@ -10,3 +10,6 @@ Write a program called plottask.py that displays:
 
 Some marks will be given for making the plot look nice (legend etc).
 '''
+
+#Need to import numpy as x
+#to generate random numbers use: numbers=x.random.randint(100,200,30)
