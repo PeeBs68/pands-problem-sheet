@@ -225,11 +225,12 @@ Sample Output:
 
 ```
 
-Assumptions:   
-
 
 Additional Links referenced for this task:   
-  
+#References
+#https://www.w3schools.com/python/matplotlib_pie_charts.asp - plotting and legends etc.   
+#https://stackoverflow.com/questions/27831923/python-random-number-generator-with-mean-and-standard-deviation - mean and standard deviation   
+
 
 ---
 
