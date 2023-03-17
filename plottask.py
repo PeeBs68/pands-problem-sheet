@@ -1,41 +1,36 @@
 # plottask.py
 # author: Phelim Barry
-# Scripts to...
+# Script to plot a histogram and a function on the same plot
 
-'''
-Write a program called plottask.py that displays:
-
-    a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2, 
-    and a plot of the function  h(x)=x3 in the range [0, 10], on the one set of axes.
-
-Some marks will be given for making the plot look nice (legend etc).
-'''
-
-#Need to import numpy as x
+#Need to import numpy and matplotlib
 import numpy as np
 import matplotlib.pyplot as plt
 
-
+#1st plot: Histogram
+#define limits/values for the numbers generation 
 count_num = 1000
 std_dev = 2
 mean = 5
+#create random and normalised values for histogram
 #loc = mean, scale = standard deviation, size = sample size
 numbers = np.random.normal(loc=mean, scale=std_dev, size=count_num)
 
-x = np.array(range(0, 10))
-print (x)
-#Cube x
+
+#2nd plot: the function h(x)=x3
+#generate an array of numbers for x with a range of 0 to 10. 
+x = np.array(range(11))
+#Cube x for y value
 y = x**3
 
+#define titles, labels etc for the plot
 plt.title("Histogram and Number Plotting")
 plt.xlabel("Numbers")
 plt.ylabel("Height")
 
-plt.plot(x, y, label ='Y = x3')
+#define the lables to be used for the legend
 plt.hist(numbers, label ='Random Numbers Hist')
+plt.plot(x, y, label ='Y = x3')
 plt.legend()
-plt.show()
 
-#References
-#https://www.w3schools.com/python/matplotlib_pie_charts.asp - plotting and legends etc
-#https://stackoverflow.com/questions/27831923/python-random-number-generator-with-mean-and-standard-deviation - mean and standard deviation
+#Print the plot. Note, the terminal will freeze while the plot is open
+plt.show()
