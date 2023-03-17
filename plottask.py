@@ -22,14 +22,14 @@ x = np.array(range(11))
 #Cube x for y value
 y = x**3
 
-#define titles, labels etc for the plot
-plt.title("Histogram and Number Plotting")
-plt.xlabel("Numbers")
-plt.ylabel("Height")
+#define titles and labels for the plot
+plt.title("Histogram and Function Plotting")
+plt.xlabel("X")
+plt.ylabel("Y (X cubed)")
 
 #define the lables to be used for the legend
-plt.hist(numbers, label ='Random Numbers Hist')
-plt.plot(x, y, label ='Y = x3')
+plt.hist(numbers, label ='Random Numbers Histogram')
+plt.plot(x, y, label ='Y = X cubed')
 plt.legend()
 
 #Print the plot. Note, the terminal will freeze while the plot is open
