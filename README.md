@@ -224,8 +224,12 @@ Then for the function, we create an array of values for the x value using np.arr
 
 Next, using the features of matplotlib we create lables, legend, title etc. for the plot and finally, using plt.show() we display the plot.
 
+Terminal Command:
+```
+$ python3 plottask.py
+```
 
-Sample Input:
+Sample User Input:
 ```
 
 ```
