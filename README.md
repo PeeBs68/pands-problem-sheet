@@ -216,12 +216,13 @@ Summary: Script to plot a histogram and a function on the same plot
 
 Details: The purpose of this script is twofold: Firstly it is designed to plot a histogram of 1000 randomly generated numbers with a mean of 5 and a standard deviation of 2. Secondly it will plot the function h(x) = y cubed in the range of 0 - 10. Both are plotted on the same set of axes.   
 
-The modules numpy and matplotlib are both imported to use array handling and plotting functions.   
+The modules numpy and matplotlib are both imported as "np" and "plt" respectively, to use the array handling and plotting functions.   
+
 For the histogram we create variables and assign values to them for the count of numbers to be used along with the mean and standard deviation. We then use these in np.random.normal() to create a list of random, normalised numbers for our histogram.   
 
 Then for the function, we create an array of values for the x value using np.array() giving it a value of 11 which uses the defaults for the function to create the array with values of 0 to 10. Then we create a new variable to store the x cubed value.   
 
-Next, using the features of matplotlob we create lables, legend, title etc for the plot and finally, using plt.show() we display the plot.
+Next, using the features of matplotlib we create lables, legend, title etc. for the plot and finally, using plt.show() we display the plot.
 
 
 Sample Input:
@@ -235,9 +236,9 @@ Sample Output:
 
 
 Additional Links referenced for this task:   
-#https://www.w3schools.com/python/matplotlib_pie_charts.asp - plotting and legends etc.   
+https://www.w3schools.com/python/matplotlib_pie_charts.asp - plotting and legends etc.   
 https://www.w3schools.com/python/ref_func_range.asp - using range()   
-#https://stackoverflow.com/questions/27831923/python-random-number-generator-with-mean-and-standard-deviation - mean and standard deviation   
+https://stackoverflow.com/questions/27831923/python-random-number-generator-with-mean-and-standard-deviation - mean and standard deviation   
 
 
 ---
