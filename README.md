@@ -234,9 +234,8 @@ Sample User Input:
 
 ```
 Sample Output:
-```
+
 ![Plot](plot.png)
-```
 
 
 Additional Links referenced for this task:   
