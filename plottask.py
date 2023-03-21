@@ -1,6 +1,6 @@
 # plottask.py
 # author: Phelim Barry
-# Script to plot a histogram and a function on the same plot
+# Script to plot a histogram and a function on the same axes
 
 #Need to import numpy and matplotlib
 import numpy as np
@@ -27,7 +27,7 @@ plt.title("Histogram and Function Plotting")
 plt.xlabel("X")
 plt.ylabel("Y (X cubed)")
 
-#define the lables to be used for the legend
+#define the lables to be used for the legend and create the plot
 plt.hist(numbers, label ='Random Numbers Histogram')
 plt.plot(x, y, label ='Y = X cubed')
 plt.legend()
