@@ -27,10 +27,11 @@ Summary: Simple script to output **Hello World** to the terminal window.
 
 Details: The purpose of this script is to print the string "Hello World!". No input is required.
 
-Input:
+Terminal Command:
+```
+$ python3 helloworld.py
 ```
 
-```
 Output:
 ```
 Hello World!
@@ -47,8 +48,13 @@ Details: The purpose of this script is to prompt the user to input two values (i
 2) Calculations - in this section the two values are added together and divided by 100 to give a total in Euros (and Cents). When dividing an INT by an INT Python gives it a type of FLOAT so we need to declare it as type INT.
 3) Output - the print command is used to output the result back to the terminal. The output is formatted to ensure that two decimal places are displayed. 
 
+Terminal Command:
+```
+$ python3 bank.py
+```
+
 Sample Input:
-```python
+```
 Input the first number in cents: 50012
 Input the second number in cents: 32290
 ```
@@ -77,8 +83,13 @@ Using a while loop we validate that the account number entered is in fact 10 cha
 
 2) The second part of this script is to take in a string of any length and again only printing the last four digits as inputed and replacing the rest with 'X'. We follow the same structure as in part1 above but remove the length validation. We check the length of the string after it has been input to identify how many characters we need to replace (Length-4). We then replace this with the equivalent number of "X" characters and combine with the last 4 to get the result. If 4 or less characters are entered then the code will not seem to do anything - it needs a minimum of 5 characters to work correctly.
 
+Terminal Command:
+```
+$ python3 accounts.py
+```
+
 Sample Input1:
-```python
+```
 Please enter the 10 digit account number: 1234ABCD56
 ```
 Sample Output1:
@@ -87,7 +98,7 @@ The account number in masked format is XXXXXXCD56
 ```
 
 Sample Input2:
-```python
+```
 Please enter the account number (of any length): ABDC1234EFGHIJ
 ```
 Sample Output2:
@@ -109,8 +120,13 @@ A while loop is then used to iterate through a number of if statements until the
 We first check if the number is even using the modulus operator (%) and if so divide it by 2. If not then we assume it is odd and multiple by 3 and add 1. The resulting number is appended to the list of numbers after each calculation.   
 The script cycles through the if statements until the while loop is complete (number = 1) and then prints out the full list of numbers formatted using end = " " to seperate the values with a space rather than the default comma.   
 
+Terminal Command:
+```
+$ python3 collatz.py
+```
+
 Sample Input:
-```python
+```
 Please enter a positive integer: 34
 ```
 Sample Output:
@@ -131,9 +147,9 @@ Summary: Script to output what day today is.
 
 Details: the script starts by importing the datetime module and then creating a list of week days (Monday -> Sunday). Using the datetime modue we imported, we can identify a numeric value for today's day. Cross checking this against the list of days where 0 = Monday, 1 = Tuesday etc. we can identify what day it is at the time of running the script. We then print the day of the week based on the day value - if it is between 0 and 4 inclusive then it's a weekeday, or else it must be a weekend day. No input is required to run this script.
 
-Input:
+Terminal Command:
 ```
-
+$ python3 weekday.py
 ```
 Sample Output1:
 ```
@@ -160,6 +176,11 @@ Input validation is included to ensure a positive float value is entered by the 
 We also define a variable for tolerance level which is how accurate we want our result to be. A level of .0001 is deemed appropriate in this case.  
 
 We create a new function, sqrt(num), and once called with the input number included as an arguement, the function tries an initial guess at the answer and compares it against the tolerance level. It then iterates through a while loop, applying the square root formula until a result is found within the tolerance level. This result is then returned to the script for printing with the value formatted with one decimal place using :.1f.
+
+Terminal Command:
+```
+$ python3 squareroot.py
+```
 
 Sample Input:
 ```
@@ -189,7 +210,7 @@ In this script we assign the letter to be found in a variable instead of hardcod
 
 Finally we count the occurances of the variable in question using count() (i.e. 'e' in this case) and print the result.
 
-Sample Input:
+Terminal Command:
 ```
 python3 es.py readme.md
 ```
@@ -229,10 +250,6 @@ Terminal Command:
 $ python3 plottask.py
 ```
 
-Sample User Input:
-```
-
-```
 Sample Output:
 
 ![Plot](plot.png)
