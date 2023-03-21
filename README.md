@@ -89,7 +89,7 @@ $ python3 accounts.py
 ```
 
 Sample Input1:
-```
+```python
 Please enter the 10 digit account number: 1234ABCD56
 ```
 Sample Output1:
@@ -98,7 +98,7 @@ The account number in masked format is XXXXXXCD56
 ```
 
 Sample Input2:
-```
+```python
 Please enter the account number (of any length): ABDC1234EFGHIJ
 ```
 Sample Output2:
@@ -126,7 +126,7 @@ $ python3 collatz.py
 ```
 
 Sample Input:
-```
+```python
 Please enter a positive integer: 34
 ```
 Sample Output:
@@ -183,7 +183,7 @@ $ python3 squareroot.py
 ```
 
 Sample Input:
-```
+```python
 Please enter a positive number:  14.5
 ```
 Sample Output:
