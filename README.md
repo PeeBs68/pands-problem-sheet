@@ -235,7 +235,7 @@ Sample User Input:
 ```
 Sample Output:
 ```
-
+![Plot](plot.png)
 ```
 
 
