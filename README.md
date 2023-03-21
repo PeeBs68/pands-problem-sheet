@@ -54,7 +54,7 @@ $ python3 bank.py
 ```
 
 Sample Input:
-```
+```python
 Input the first number in cents: 50012
 Input the second number in cents: 32290
 ```
