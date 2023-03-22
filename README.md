@@ -259,6 +259,7 @@ Additional Links referenced for this task:
 https://www.w3schools.com/python/matplotlib_pie_charts.asp - plotting and legends etc.   
 https://www.w3schools.com/python/ref_func_range.asp - using range()   
 https://stackoverflow.com/questions/27831923/python-random-number-generator-with-mean-and-standard-deviation - mean and standard deviation   
+https://stackoverflow.com/questions/14494747/how-to-add-images-to-readme-md-on-github - adding images to a readme file   
 
 
 ---
