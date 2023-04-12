@@ -206,7 +206,7 @@ Summary: Script to count the number of 'e's in a file.
 
 Details: the purpose of this script is to count the number of occurances of the letter e in a file. The filename is not hardcoded into the script but is given as an arguement through the command line and using sys.argv[1] we assign it to the FILENAME variable. (sys.argv[0] would be the actual script name). We import the sys module to enable the use of sys.argv().
 
-In this script we assign the letter to be found in a variable instead of hardcoding it so it can be changed easier if need be. Next step is to open the file in read only mode 'r' using with open (which also handles closing the file correctly after we are finished with it) and read in the contents as a string.   
+In this script we assign the letter to be found in a variable instead of hardcoding it so it can be changed easier if need be. Next step is to open the file in read only mode 'r' using with open (which also handles closing the file correctly after we are finished with it) and read in the contents as a string. Using a for loop we import the contents of the file line by line - this would be appropriate if dealing with a large file to avoid memory issues.
 
 Finally we count the occurances of the variable in question using count() (i.e. 'e' in this case) and print the result.
 
