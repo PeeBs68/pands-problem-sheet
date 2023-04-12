@@ -210,6 +210,10 @@ In this script we assign the letter to be found in a variable instead of hardcod
 
 Finally we count the occurances of the variable in question using count() (i.e. 'e' in this case) and print the result.
 
+Assumptions:   
+The script will look for an exact match of the letter in question so will not return occurances of upper case letters if looking for lower case letters and vice versa. upper() or lower() could have been used to convert the contents as needed if this was a requirement.   
+Also, we do not validate if the filename entered exists or not. If an invalid filename is entered then the script will fail. 
+
 Terminal Command:
 ```
 python3 es.py readme.md
@@ -219,15 +223,11 @@ Sample Output:
 The number of e's in readme.md is 782
 ```
 
-Assumptions:   
-The script will look for an exact match of the letter in question so will not return occurances of upper case letters if looking for lower case letters and vice versa. upper() or lower() could have been used to convert the contents as needed if this was a requirement.   
-Also, we do not validate if the filename entered exists or not. If an invalid filename is entered then the script will fail. 
-
 Additional Links referenced for this task:   
 #https://www.geeksforgeeks.org/command-line-arguments-in-python/ - details on using command line arguements   
-https://www.w3schools.com/python/python_file_open.asp - openng and reading from files   
+https://www.w3schools.com/python/python_file_open.asp - opening and reading from files   
 https://realpython.com/read-write-files-python/ - details on opening and closing files   
-
+https://stackoverflow.com/questions/3277503/how-to-read-a-file-line-by-line-into-a-list - reading the contents of a file line by line   
 
 # 8. plottask
 
