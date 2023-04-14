@@ -13,9 +13,12 @@ second_number = int(input("\nInput the second number in Cents: "))
 print (f"\nThe second amount in Cent is: {second_number}")
 
 # calculations
-# define a new variable, numtotal as an int, add the two numbers and divide the total by 100 to convert to euros
-numtotal = int(first_number + second_number)/100
+# Add the numbers to get the total (in cents)
+num_total = (first_number + second_number)
+# define two new variables to store the euro total and cent totals
+euro_total = num_total//100 # Using floor division keeps the result as an int
+cent_total = num_total%100 # Using the modulo operator to get the remainder keeps the result as an int
 
 # output section
-# Add a new line and print the output formatted to 2 decimal places
-print (f"\nThe total in Euros and Cents is: €{numtotal:.2f}")
+# Add a new line and print the results
+print (f"\nThe total is {euro_total} Euro and {cent_total} Cent")
