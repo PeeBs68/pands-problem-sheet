@@ -10,6 +10,9 @@ FILENAME = sys.argv[1]
 
 #Define the letter we want to find and count
 letter_to_find = "e"
+'''Note: The script will look for an exact match of the letter in question so will not return 
+occurances of upper case letters if looking for lower case letters and vice versa. upper() or 
+lower() could have been used to convert the contents as needed if this was a requirement. '''
 
 #Initialise a counter
 counter=0
